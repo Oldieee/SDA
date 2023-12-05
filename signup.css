@@ -145,3 +145,12 @@ body{
 .login-register p a:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 950px){
+    .container{
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+        padding: 20px 20px;
+    }
+}
